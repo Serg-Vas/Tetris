@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+body{
+    background: linear-gradient(120deg, red, blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    background-color: yellow;
+    padding: 0.5vh;
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    gap: 0.5vh;
+}
+
+.grid > div{
+    height: min(4vh, 7vw);
+    width: min(4vh, 7vw);
+    background-color: rgb(0, 0, 0);
+    border-radius: 0.3vh;
+}
+
+.grid .O{
+    background-color: blue;
+}
+
+.grid .J{
+    background-color: red;
+}
+
+.grid .L{
+    background-color: green;
+}
+
+.grid .I{
+    background-color: rgb(192, 51, 0);
+}
+
+.grid .T{
+    background-color: rgb(0, 221, 206);
+}
+
+.grid .Z{
+    background-color: pink;
+}
+
+.grid .S{
+    background-color: rgb(192, 19, 255);
+}
